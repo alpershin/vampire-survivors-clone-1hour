@@ -11,9 +11,9 @@ TagManager:
   - 
   - Water
   - UI
-  - 
-  - 
-  - 
+  - PickUp
+  - Enemy
+  - PlayerProjectile
   - 
   - 
   - 

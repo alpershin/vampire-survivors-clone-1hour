@@ -1,0 +1,44 @@
+{
+  "PlayerStats": {
+    "MoveSpeed": 5.0,
+    "MaxHealth": 100.0
+  },
+  "EnemyStats": [
+    {
+      "Type": "Normal",
+      "HP": 30.0,
+      "Speed": 2.0,
+      "Damage": 10.0,
+      "XP_Value": 5,
+      "AttackRange": 0.75
+    },
+    {
+      "Type": "Fast",
+      "HP": 20.0,
+      "Speed": 3.5,
+      "Damage": 8.0,
+      "XP_Value": 7,
+      "AttackRange": 0.9
+    }
+  ],
+  "AbilityStats": [
+    {
+      "Name": "Projectile",
+      "Damage": 15.0,
+      "Cooldown": 1.0,
+      "Area": 0.0,
+      "Speed": 10.0,
+      "ProjectileCount": 1,
+      "Description": "Fires projectiles at the nearest enemy. Each level adds another projectile."
+    },
+    {
+      "Name": "Aura",
+      "Damage": 5.0,
+      "Cooldown": 2.5,
+      "Area": 2.5,
+      "Speed": 0.0,
+      "ProjectileCount": 0,
+      "Description": "Damaging aura around the player. Level increases damage and radius."
+    }
+  ]
+}
